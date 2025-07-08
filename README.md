@@ -7,7 +7,7 @@
 - 下载镜像并加载
 
 ```bash
-wget -c https://cdn.jsdelivr.net/gh/meimolihan/images@v1.0.0/random-pic-api.tar.gz && \
+wget -c https://images.meimolihan.eu.org/random-pic-api.tar.gz && \
 bash <(curl -sL gitee.com/meimolihan/script/raw/master/sh/compose/docker_load_all_images.sh) && \
 rm random-pic-api.tar.gz
 ```
@@ -17,7 +17,7 @@ rm random-pic-api.tar.gz
 - hexo 博客镜像
 
 ```bash
-wget -c https://cdn.jsdelivr.net/gh/meimolihan/images@v1.0.0/hexo_images.tar.gz && \
+wget -c https://images.meimolihan.eu.org/hexo_images.tar.gz && \
 bash <(curl -sL gitee.com/meimolihan/script/raw/master/sh/compose/docker_load_all_images.sh) && \
 rm hexo_images.tar.gz
 ```
